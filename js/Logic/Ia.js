@@ -1,4 +1,4 @@
-class IA{
+class Ia{
     constructor(piece){
         //---------------------------------------------------------------------------------------
         //To set name random for IA with [A-Za-z0-9]. These range are take of ASCII
