@@ -1,9 +1,9 @@
-/* Cambia el background del elemento al cual se le pase el
- * id utilizando el sistema de color HSL
+/* it Change background of element giving it identificator
+    use system color HSL
  */
 const $element = document.querySelector("section");
 const getRandomNumber = maxNum => {
-    //0, 1 y 2 tienen la misma probabilidad de salir
+    //0, 1 y 2 have the same probability to output
     let result;
     while(true){
         value = Math.trunc(Math.random() * 3);
@@ -37,4 +37,5 @@ const setBackgroundColor = () => {
     section.style.backgroundColor = randomColor;
     section.style.color = randomColor;
 };
+
 setInterval(() => {setBackgroundColor()}, 3000);
