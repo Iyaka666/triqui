@@ -3,6 +3,7 @@ class Piece{
     this.shape = shape; // cross - circle - square - triangle
     this.coordinateX = coordinateX;
     this.coordinateY = coordinateY;
+    //It is posible that changed the way to know its position current by hit-box 
   }
   
   get shape(){ return this.shape }
